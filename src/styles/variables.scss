@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Nunito+Sans&display=swap");
 
 $black: #000;
+$blue: #0089ff;
 $orange: #f7931e;
+$yellow: #feee00;
 $red: #ff002b;
+$ghost: #3e3e3e;
 $dark-gray: #1a1a1a;
 $gray: #999999;
+$silver: #c9c9c9;
 $white: #fff;
 
 $btn-gradient: linear-gradient(45deg, $orange 12%, $red 12%);
+$red-gradient: radial-gradient(circle, $orange 0%, $red 60%);

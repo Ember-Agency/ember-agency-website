@@ -1,0 +1,49 @@
+@import "animations.scss";
+
+#elements {
+  background: $black;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 6rem;
+  padding-top: 5rem;
+  position: relative;
+  z-index: 10;
+
+  .ember-text {
+    margin-bottom: 7rem;
+    width: 80vw;
+  }
+
+  .content {
+    align-items: flex-start;
+    display: flex;
+  }
+
+  img.elements {
+    margin-left: 2rem;
+  }
+
+  a.pill {
+    margin-top: 2rem;
+  }
+}
+
+// @media (max-width: 1000px) {
+//   #elements {
+//   }
+// }
+
+// @media (max-width: 900px) {
+//   #elements {
+//   }
+// }
+
+// @media (max-width: 850px) {
+//   #elements {
+//   }
+// }
+
+// @media (max-width: 600px) {
+//   #elements {
+//   }
+// }

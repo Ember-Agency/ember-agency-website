@@ -1,0 +1,106 @@
+@import "animations.scss";
+
+#capabilities {
+  background: $silver;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 6rem;
+  padding-top: 5rem;
+
+  .red-gradient {
+    background: $red-gradient;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 250px;
+    margin: -5rem 0 -6rem -20px;
+
+    img {
+      z-index: 10;
+    }
+  }
+
+  .silver-slant {
+    background: $silver;
+    height: 1000px;
+    left: -200px;
+    margin-bottom: -182px;
+    margin-top: -100px;
+    position: relative;
+    transform: rotate(14deg);
+    width: 300px;
+  }
+
+  .content {
+    align-items: center;
+    display: flex;
+    margin-left: -200px;
+    padding: 0 2rem;
+    z-index: 10;
+
+    h2,
+    h4 {
+      color: $black;
+    }
+
+    .blocks {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 600px;
+
+      .block {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+        width: 50%;
+
+        &:nth-child(1),
+        &:nth-child(2) {
+          border-bottom: 1px solid #474747;
+        }
+
+        &:nth-child(1),
+        &:nth-child(3) {
+          border-right: 1px solid #474747;
+        }
+
+        h4 {
+          margin: 0;
+          text-transform: uppercase;
+        }
+
+        ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+
+          li {
+            display: block;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+// @media (max-width: 1000px) {
+//   #capabilities {
+//   }
+// }
+
+// @media (max-width: 900px) {
+//   #capabilities {
+//   }
+// }
+
+// @media (max-width: 850px) {
+//   #capabilities {
+//   }
+// }
+
+// @media (max-width: 600px) {
+//   #capabilities {
+//   }
+// }

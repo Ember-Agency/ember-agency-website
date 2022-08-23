@@ -1,0 +1,54 @@
+@import "animations.scss";
+
+#contact {
+  background: $red;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
+  padding-top: 5rem;
+
+  .content {
+    align-items: flex-start;
+    display: flex;
+    padding-bottom: 10rem;
+
+    h3 {
+      border-bottom-color: $yellow;
+      color: $yellow;
+    }
+
+    a {
+      color: $black;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    p {
+      color: $white;
+    }
+  }
+
+  .waves {
+    margin-left: 0;
+  }
+}
+
+// @media (max-width: 1000px) {
+//   #contact {
+//   }
+// }
+
+// @media (max-width: 900px) {
+//   #contact {
+//   }
+// }
+
+// @media (max-width: 850px) {
+//   #contact {
+//   }
+// }
+
+// @media (max-width: 600px) {
+//   #contact {
+//   }
+// }

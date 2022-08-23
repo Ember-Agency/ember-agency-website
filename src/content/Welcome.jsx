@@ -1,5 +1,7 @@
-import { DiscordLink, TelegramLink } from "../content/SocialLinks";
+import { Link } from "react-router-dom";
+import { SocialIcons } from "../content/SocialLinks";
 import { Waves } from "../animations";
+import "../styles/Welcome.scss";
 
 export const Welcome = () => {
   return (
@@ -14,8 +16,15 @@ export const Welcome = () => {
           brands and position them for growth with a focus on security,
           transparency, advisory and governance.
         </p>
-        <DiscordLink />
-        <TelegramLink />
+        <div>
+          <Link to="#contact" className="pill">
+            Let's Work Together &rsaquo;
+          </Link>
+          <a href="https://embertoken.io" rel="noreferrer" target="_blank">
+            Check out our token &rsaquo;
+          </a>
+        </div>
+        <SocialIcons />
       </div>
       <Waves />
     </article>

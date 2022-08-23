@@ -1,11 +1,22 @@
 import "../styles/Home.scss";
-import { Partners, Welcome } from "../content";
+import {
+  Capabilities,
+  Contact,
+  Elements,
+  Ethos,
+  Partners,
+  Welcome,
+} from "../content";
 
 export const Home = () => {
   return (
     <>
       <Welcome />
+      <Elements />
+      <Capabilities />
+      <Ethos />
       <Partners />
+      <Contact />
     </>
   );
 };

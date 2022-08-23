@@ -1,5 +1,9 @@
 @import "animations.scss";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   height: calc(100vh - 40px);
   // background-attachment: fixed;
@@ -17,8 +21,19 @@ a {
   color: $white;
   text-decoration: none;
 
+  &:hover {
+    color: $orange;
+  }
+
   &.pill {
+    background: $red;
     border-radius: 40px;
+    padding: 1rem 3rem;
+
+    &:hover {
+      background: $orange;
+      color: $white;
+    }
   }
 
   &.btn {
@@ -65,8 +80,32 @@ h1 {
   font-size: 3.5rem;
 }
 
+h2 {
+  color: $white;
+  font-size: 2.75rem;
+  margin: 2rem 0;
+}
+
+h3 {
+  border-bottom: 1px dashed $gray;
+  color: $gray;
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
 p {
+  color: $silver;
   line-height: 1.5;
+  margin-bottom: 1rem;
+
+  strong {
+    color: $white;
+    font-weight: 700;
+  }
 }
 
 .row {
@@ -76,8 +115,14 @@ p {
 
 .col {
   display: flex;
+  flex-direction: column;
   flex-grow: 2;
   width: 50%;
+}
+
+article {
+  margin: 0 -20px;
+  padding: 0 20px;
 }
 
 main.app {
@@ -85,41 +130,99 @@ main.app {
   margin: 0 auto;
 }
 
+.blue {
+  color: $blue;
+}
+.red {
+  color: $red;
+}
+.orange {
+  color: $orange;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+
+  img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+  }
+}
+
 header {
   display: flex;
   justify-content: space-between;
   padding: 40px 0;
   position: relative;
+}
 
-  nav {
+nav {
+  display: flex;
+  ul {
     display: flex;
-    ul {
+    li {
+      align-items: center;
       display: flex;
-      li {
-        align-items: center;
-        display: flex;
-        text-transform: uppercase;
-        margin: 0 10px;
+      text-transform: uppercase;
+      margin: 0 10px;
 
-        &:last-child a {
-          color: $orange;
-        }
+      &:last-child a {
+        color: $orange;
 
-        a {
-          font-size: 0.9rem;
-          padding: 0 5px;
+        &:hover {
+          color: $red;
         }
+      }
+
+      a {
+        font-size: 0.9rem;
+        padding: 0 5px;
       }
     }
   }
 }
 
 footer {
+  align-items: center;
+  background: $black;
   color: $gray;
   display: flex;
+  flex-direction: column;
   font-size: 0.8rem;
+  margin: 0 -20px;
+  padding: 0 20px;
   position: relative;
   justify-content: center;
+
+  .top-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    width: 420px;
+  }
+
+  nav ul li a {
+    font-size: 0.8rem;
+  }
+
+  p {
+    color: $ghost;
+  }
+
+  .social-links {
+    display: block;
+    margin-left: 5rem;
+  }
+
+  img {
+    margin-bottom: 3rem;
+    width: 200px;
+  }
 }
 
 @media (max-width: 1300px) {

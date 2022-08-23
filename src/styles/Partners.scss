@@ -1,0 +1,62 @@
+@import "animations.scss";
+
+#partners {
+  background-color: $black;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
+  padding-top: 0;
+
+  .content {
+    align-items: flex-start;
+    display: flex;
+
+    #embers {
+      left: 20px;
+      position: relative;
+      z-index: 10;
+    }
+  }
+}
+
+// @media (max-width: 1000px) {
+//   #partners {
+//   }
+// }
+
+// @media (max-width: 900px) {
+//   #partners {
+//   }
+// }
+
+// @media (max-width: 850px) {
+//   #partners {
+//   }
+// }
+
+// @media (max-width: 600px) {
+//   #partners {
+//   }
+// }
+
+.large-ember > img {
+  width: 100%;
+  height: 100%;
+  margin-top: -100px;
+}
+
+@media (max-width: 850px) {
+  .large-ember {
+    width: calc(100vw - (380px + 40px));
+  }
+}
+
+@media (max-width: 600px) {
+  .large-ember {
+    width: 100%;
+
+    img {
+      margin-top: 0;
+    }
+  }
+}

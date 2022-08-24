@@ -1,8 +1,8 @@
 @import "animations.scss";
 
 #ethos {
-  background: $black;
-  background-image: url("../assets/burned-rose.svg");
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 25%, $black 100%),
+    url("../assets/burned-rose.svg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -16,7 +16,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    padding-top: 80vh;
+    padding-top: 50vh;
     max-width: 60vw;
     text-align: center;
 

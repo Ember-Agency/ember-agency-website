@@ -7,6 +7,7 @@ export const Contact = () => {
     <article id="contact" className="row">
       <div className="content col">
         <h3>Contact</h3>
+        <h2>Get in touch</h2>
         <p>
           We are driven by our unmatched customer service and commitment to
           bringing new hope to new and struggling projects in the
@@ -28,6 +29,12 @@ export const Contact = () => {
           <a href="mailto:support@emberagency.io">support@emberagency.io</a> and
           we will do our best to respond within 24 hours.
         </p>
+      </div>
+      <div className="contact-form col">
+        {/* Wufoo Form */}
+        <a href="/" className="pill">
+          Submit &rsaquo;
+        </a>
       </div>
       <Waves />
     </article>

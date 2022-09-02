@@ -5,8 +5,8 @@ import twitchIcon from "../assets/icon-twitch.svg";
 
 export const discord = "https://discord.gg/BVFZ6gTcYn";
 export const telegram = "https://t.me/ember_token_io";
-export const twitter = "https://twitter.com/EmberToken";
-export const instagram = "https://www.instagram.com/embertoken.io/";
+export const twitter = "https://twitter.com/EmberAgencyIO";
+export const instagram = "https://www.instagram.com/emberagency.io/";
 export const twitch = "https://www.twitch.tv/emberagency";
 
 export const DiscordLink = () => {
@@ -30,16 +30,36 @@ export const SocialIcons = () => {
   // TODO: which is more performant?
   return (
     <div className="social-links">
-      <a href={telegram} rel="noreferrer" target="_blank">
+      <a
+        href={telegram}
+        rel="noreferrer"
+        target="_blank"
+        title="Join us on Telegram"
+      >
         <img src={telegramIcon} alt="Ember Agency - Telegram" />
       </a>
-      <a href={discord} rel="noreferrer" target="_blank">
+      <a
+        href={discord}
+        rel="noreferrer"
+        target="_blank"
+        title="Join us on Discord"
+      >
         <img src={discordIcon} alt="Ember Agency - Discord" />
       </a>
-      <a href={twitch} rel="noreferrer" target="_blank">
+      <a
+        href={twitch}
+        rel="noreferrer"
+        target="_blank"
+        title="Join us on Twitch"
+      >
         <img src={twitchIcon} alt="Ember Agency - Twitch" />
       </a>
-      <a href={twitter} rel="noreferrer" target="_blank">
+      <a
+        href={twitter}
+        rel="noreferrer"
+        target="_blank"
+        title="Follow us on Twitter"
+      >
         <img src={twitterIcon} alt="Ember Agency - Twitter" />
       </a>
       {/* <a href={instagram} rel="noreferrer" target="_blank">

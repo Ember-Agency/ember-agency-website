@@ -1,5 +1,6 @@
 import { Waves } from "../animations";
 import { discord, telegram } from "../content/SocialLinks";
+import { Email } from "../content/Email";
 import "../styles/Contact.scss";
 
 export const Contact = () => {
@@ -31,10 +32,7 @@ export const Contact = () => {
         </p>
       </div>
       <div className="contact-form col">
-        {/* Wufoo Form */}
-        <a href="/" className="pill">
-          Submit &rsaquo;
-        </a>
+        <Email />
       </div>
       <Waves />
     </article>

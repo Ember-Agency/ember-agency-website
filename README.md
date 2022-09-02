@@ -1,6 +1,6 @@
-# Ember Token Website
+# Ember Agency Website
 
-This repo is responsible for building https://embertoken.io using React.
+This repo is responsible for building https://emberagency.io using React.
 
 ## Available Scripts
 

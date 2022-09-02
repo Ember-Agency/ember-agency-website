@@ -4,3 +4,4 @@ export * from "./Ethos";
 export * from "./Elements";
 export * from "./Partners";
 export * from "./Welcome";
+export * from "./Email";

@@ -5,19 +5,19 @@ export const Navigation = () => {
     <nav>
       <ul>
         <li>
-          <Link to="elements">Construct</Link>
+          <Link to="#elements">Construct</Link>
         </li>
         <li>
-          <Link to="capabilities">Capabilities</Link>
+          <Link to="#capabilities">Capabilities</Link>
         </li>
         <li>
-          <Link to="ethos">Ethos</Link>
+          <Link to="#ethos">Ethos</Link>
         </li>
         <li>
-          <Link to="partners">Partners</Link>
+          <Link to="#partners">Partners</Link>
         </li>
         <li>
-          <Link to="contact">Contact</Link>
+          <Link to="#contact">Contact</Link>
         </li>
         <li>
           <a href="https://embertoken.io" rel="noreferrer" target="_blank">

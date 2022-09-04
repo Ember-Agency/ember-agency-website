@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -19,6 +20,7 @@ body {
 
 a {
   color: $white;
+  cursor: pointer;
   text-decoration: none;
 
   &:hover {
@@ -136,6 +138,9 @@ main.app {
 .red {
   color: $red;
 }
+.red-orange {
+  color: $red-orange;
+}
 .orange {
   color: $orange;
 }
@@ -180,6 +185,10 @@ nav {
       a {
         font-size: 0.9rem;
         padding: 0 5px;
+
+        &.active {
+          color: $red;
+        }
       }
     }
   }
@@ -203,7 +212,7 @@ footer {
   }
 
   h1 {
-    width: 480px;
+    width: 410px;
   }
 
   nav ul li a {

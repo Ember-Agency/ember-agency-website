@@ -3,43 +3,18 @@
 $small-ember-spacing: 60px;
 
 #capabilities {
-  background: $silver;
+  background-color: $silver;
+  background-image: url(../assets/ember-angle-left.svg);
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  overflow: hidden;
-  padding-bottom: 6rem;
-  padding-top: 5rem;
-
-  .red-gradient {
-    align-items: center;
-    background: $red-gradient;
-    display: flex;
-    flex-direction: row;
-    margin: -5rem 0 -6rem -20px;
-    width: 10vw;
-
-    img {
-      height: 80%;
-      margin-left: 2rem;
-      z-index: 10;
-    }
-  }
-
-  .silver-slant {
-    background: $silver;
-    height: 100vh;
-    left: -10vw;
-    margin-bottom: -182px;
-    margin-top: -100px;
-    position: relative;
-    transform: rotate(14deg);
-    width: 20vw;
-  }
+  padding: 5rem 20px 6rem 325px;
 
   .content {
     align-items: center;
     display: flex;
-    padding: 0 2rem;
+    flex-direction: column;
+    padding: 0;
     width: auto;
     z-index: 10;
 
@@ -59,7 +34,7 @@ $small-ember-spacing: 60px;
     .blocks {
       display: flex;
       flex-wrap: wrap;
-      max-width: 600px;
+      width: 100%;
 
       &:first-of-type .block {
         border-bottom: 1px solid #474747;
@@ -92,7 +67,10 @@ $small-ember-spacing: 60px;
 
           li {
             display: block;
+            position: relative;
             text-align: center;
+            white-space: nowrap;
+            z-index: 100;
           }
         }
       }
@@ -100,34 +78,71 @@ $small-ember-spacing: 60px;
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 900px) {
+  $small-ember-spacing: 30px;
+
   #capabilities {
-    .red-gradient {
-      width: 17vw;
+    background-position-x: -20px;
+    padding: 2rem 20px 3rem 260px;
 
-      img {
-        height: 70%;
+    .content {
+      padding: 0 1rem 0 0;
+      width: 100%;
+
+      img.small-ember {
+        margin-top: ($small-ember-spacing + 10px) * -1;
+        width: 50px;
       }
-    }
 
-    .silver-slant {
-      left: -11vw;
-      width: 22vw;
+      .blocks {
+        &:last-of-type .block {
+          margin-top: ($small-ember-spacing) * -1;
+        }
+
+        .block {
+          padding: 2rem 3rem;
+        }
+      }
     }
   }
 }
 
-// @media (max-width: 900px) {
-//   #capabilities {
-//   }
-// }
+@media (max-width: 800px) {
+  #capabilities {
+    padding: 1rem 0 1rem 190px;
 
-// @media (max-width: 850px) {
-//   #capabilities {
-//   }
-// }
+    .content {
+      h2 {
+        margin-bottom: 1rem;
+      }
 
-// @media (max-width: 600px) {
-//   #capabilities {
-//   }
-// }
+      .blocks .block {
+        padding: 1rem;
+
+        ul li {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  #capabilities {
+    background-image: none;
+    background-position-x: 0;
+    padding: 2rem 1rem;
+
+    .content {
+      padding: 0;
+
+      h2 {
+        font-size: 2.25rem;
+      }
+
+      .blocks .block ul li {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}

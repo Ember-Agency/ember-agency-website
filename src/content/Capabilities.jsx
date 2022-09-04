@@ -5,12 +5,8 @@ import "../styles/Capabilities.scss";
 export const Capabilities = () => {
   return (
     <HashScroll hash="capabilities">
-      <article id="capabilities" className="row">
-        <div className="col red-gradient">
-          <img src={image} alt="" />
-        </div>
-        <div className="silver-slant">&nbsp;</div>
-        <div className="content col">
+      <article id="capabilities">
+        <div className="content">
           <h3>capabilities</h3>
           <h2>
             A+B+C+D = <span className="red-orange">Ember</span>
@@ -22,8 +18,8 @@ export const Capabilities = () => {
                 <li>Digital Consulting</li>
                 <li>Tokenomic Strategies</li>
                 <li>Staking + Yield Farming</li>
-                <li>DeFi Mechanisms</li>
                 <li>Blockchain Consulting</li>
+                <li>DeFi Mechanisms</li>
               </ul>
             </div>
             <div className="block">
@@ -31,9 +27,9 @@ export const Capabilities = () => {
               <ul>
                 <li>Brand Assessments</li>
                 <li>Business + Product Naming</li>
-                <li>Identity Development</li>
-                <li>Brand Voice + Personality</li>
                 <li>Communication + Style Guides</li>
+                <li>Brand Voice + Personality</li>
+                <li>Identity Development</li>
               </ul>
             </div>
           </div>

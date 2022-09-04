@@ -1,8 +1,9 @@
-@import "animations.scss";
+@import "variables.scss";
 
 #elements {
   background: $black;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding-bottom: 6rem;
   padding-top: 5rem;
@@ -28,22 +29,16 @@
   }
 }
 
-// @media (max-width: 1000px) {
-//   #elements {
-//   }
-// }
+@media (max-width: 900px) {
+  #elements .row {
+    flex-direction: column;
 
-// @media (max-width: 900px) {
-//   #elements {
-//   }
-// }
+    .col {
+      width: 100%;
+    }
 
-// @media (max-width: 850px) {
-//   #elements {
-//   }
-// }
-
-// @media (max-width: 600px) {
-//   #elements {
-//   }
-// }
+    .content {
+      margin-bottom: 5rem;
+    }
+  }
+}

@@ -90,7 +90,7 @@ export const Email = () => {
             name="message"
             onChange={handleChange}
             required={true}
-            rows={5}
+            rows={4}
             value={toSend.message}
           />
         </div>

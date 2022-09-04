@@ -127,11 +127,6 @@ article {
   padding: 0 20px;
 }
 
-main.app {
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
 .blue {
   color: $blue;
 }
@@ -212,7 +207,7 @@ footer {
   }
 
   h1 {
-    width: 410px;
+    width: 30rem;
   }
 
   nav ul li a {
@@ -224,11 +219,11 @@ footer {
   }
 
   .social-links {
-    display: block;
-    margin-left: 5rem;
+    align-items: center;
+    margin: 0 0 0 5rem;
   }
 
-  img {
+  & > img {
     margin-bottom: 3rem;
     width: 200px;
   }

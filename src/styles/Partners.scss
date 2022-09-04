@@ -1,4 +1,4 @@
-@import "animations.scss";
+@import "variables.scss";
 
 #partners {
   align-items: flex-start;
@@ -18,11 +18,13 @@
     flex-wrap: nowrap;
     margin-left: -20px;
     max-width: 90vw;
-    padding: 3rem;
+    padding: 3rem 2rem;
 
     .partner-content {
       align-items: flex-start;
       flex-shrink: 2;
+      min-width: 350px;
+      padding-right: 2rem;
     }
 
     .partner-logos {
@@ -34,7 +36,7 @@
 
       img {
         margin: 0 2rem;
-        width: 15%;
+        width: 18%;
       }
     }
   }
@@ -47,44 +49,71 @@
   }
 }
 
-// @media (max-width: 1000px) {
-//   #partners {
-//   }
-// }
+@media (max-width: 1400px) {
+  #partners .content .partner-logos {
+    flex-wrap: wrap;
 
-// @media (max-width: 900px) {
-//   #partners {
-//   }
-// }
-
-// @media (max-width: 850px) {
-//   #partners {
-//   }
-// }
-
-// @media (max-width: 600px) {
-//   #partners {
-//   }
-// }
-
-.large-ember > img {
-  width: 100%;
-  height: 100%;
-  margin-top: -100px;
-}
-
-@media (max-width: 850px) {
-  .large-ember {
-    width: calc(100vw - (380px + 40px));
+    img {
+      margin-bottom: 2rem;
+      width: calc(25% - 4rem);
+    }
   }
 }
 
-@media (max-width: 600px) {
-  .large-ember {
-    width: 100%;
+@media (max-width: 1200px) {
+  #partners .content .partner-logos img {
+    margin: 0 1rem 1rem;
+    width: calc(25% - 2rem);
+  }
+}
 
-    img {
-      margin-top: 0;
+@media (max-width: 1000px) {
+  #partners .content .partner-logos img {
+    margin-bottom: 2rem;
+    width: calc(50% - 2rem);
+  }
+}
+
+@media (max-width: 800px) {
+  #partners .content .partner-logos img {
+    margin: 0 0.5rem;
+    width: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 700px) {
+  #partners {
+    .content {
+      flex-wrap: wrap;
+
+      .partner-logos img {
+        margin: 2rem 1rem;
+        width: calc(25% - 2rem);
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #partners {
+    .content {
+      .partner-content {
+        min-width: auto;
+
+        h2 {
+          font-size: 2rem;
+          margin-bottom: 0;
+        }
+      }
+
+      .partner-logos img {
+        margin: 2rem 1rem;
+        width: calc(50% - 2rem);
+      }
+    }
+
+    #embers {
+      left: -160px;
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.76a95cb7.css",
-    "main.js": "/static/js/main.3ddec54e.js",
+    "main.css": "/static/css/main.a4cd58f6.css",
+    "main.js": "/static/js/main.f030b7d0.js",
     "static/js/787.efa9a5da.chunk.js": "/static/js/787.efa9a5da.chunk.js",
     "static/media/burned-rose.svg": "/static/media/burned-rose.3f1e0575d669375a7913.svg",
     "static/media/logo-beast.svg": "/static/media/logo-beast.0cff35336ee37aefc13095e43ec56ac1.svg",
@@ -13,6 +13,7 @@
     "static/media/logo-interfi.svg": "/static/media/logo-interfi.ea1e33bf311b378dc04363a6ff93f7c5.svg",
     "static/media/logo-block-syndicate.svg": "/static/media/logo-block-syndicate.5089c66982c58bddc22fb3eb98c275dc.svg",
     "static/media/ember_03.png": "/static/media/ember_03.c4a0563d2bc30fe0e6f4.png",
+    "static/media/ember-angle-left.svg": "/static/media/ember-angle-left.3d9336dbf7ea907f5409.svg",
     "static/media/logo.svg": "/static/media/logo.d7d6d670133955b93ff7120106f2c958.svg",
     "static/media/no-glow-ember.svg": "/static/media/no-glow-ember.c2e35a7236a986ab1c09483604cae794.svg",
     "static/media/ember-text.svg": "/static/media/ember-text.f6eaf13aaf04ef31daa5d41b33319d07.svg",
@@ -21,12 +22,12 @@
     "static/media/icon-twitch.svg": "/static/media/icon-twitch.82e118d9f63006d15bc0dcbed8f7cdb5.svg",
     "static/media/icon-telegram.svg": "/static/media/icon-telegram.18f0dac19245416826f0b2709edd71d8.svg",
     "static/media/icon-twitter.svg": "/static/media/icon-twitter.4414a89fb2c960ef9234f30fccabf14c.svg",
-    "main.76a95cb7.css.map": "/static/css/main.76a95cb7.css.map",
-    "main.3ddec54e.js.map": "/static/js/main.3ddec54e.js.map",
+    "main.a4cd58f6.css.map": "/static/css/main.a4cd58f6.css.map",
+    "main.f030b7d0.js.map": "/static/js/main.f030b7d0.js.map",
     "787.efa9a5da.chunk.js.map": "/static/js/787.efa9a5da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76a95cb7.css",
-    "static/js/main.3ddec54e.js"
+    "static/css/main.a4cd58f6.css",
+    "static/js/main.f030b7d0.js"
   ]
 }

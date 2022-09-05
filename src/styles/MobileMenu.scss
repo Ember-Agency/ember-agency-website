@@ -84,10 +84,12 @@
   }
 
   &.is-open {
-    .burger {
+    button .burger {
+      background: $black;
       transform: skew(5deg) translateY(-8px) rotate(-45deg);
 
       &:before {
+        background: $black;
         transform: translateY(0px) skew(-10deg) rotate(75deg);
       }
 

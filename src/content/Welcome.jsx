@@ -20,7 +20,7 @@ export const Welcome = () => {
             build better brands and position them for growth with a focus on
             security, transparency, advisory and governance.
           </p>
-          <div>
+          <div className="cta">
             <Link to="#contact" className="pill">
               Let's Work Together &rsaquo;
             </Link>

@@ -42,7 +42,7 @@ export const Elements = () => {
               Let's Work Together &rsaquo;
             </Link>
           </div>
-          <div className="col">
+          <div className="triangle col">
             <img
               className="elements"
               src={elements}

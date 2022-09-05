@@ -151,7 +151,7 @@ article {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 40px 0;
+  padding: 20px 0;
   position: relative;
 }
 
@@ -229,6 +229,7 @@ footer {
   footer {
     h1.typewriter {
       font-size: 36px;
+      max-width: 310px;
       width: 310px;
     }
   }
@@ -238,6 +239,7 @@ footer {
   footer {
     h1.typewriter {
       font-size: 32px;
+      max-width: 280px;
       width: 280px;
     }
 
@@ -263,6 +265,7 @@ footer {
   footer {
     h1.typewriter {
       font-size: 24px;
+      max-width: 210px;
       width: 210px;
     }
     .social-links {
@@ -287,6 +290,7 @@ footer {
 
     h1.typewriter {
       font-size: 32px;
+      max-width: 280px;
       width: 280px;
     }
     .social-links {

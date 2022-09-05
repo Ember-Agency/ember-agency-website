@@ -10,6 +10,11 @@
   position: relative;
   z-index: 10;
 
+  .row {
+    margin: 0 auto;
+    max-width: 90vw;
+  }
+
   .ember-text {
     margin: 0 auto 7rem;
     width: 80vw;
@@ -20,8 +25,10 @@
     display: flex;
   }
 
-  img.elements {
-    margin-left: 2rem;
+  .triangle {
+    display: flex;
+    justify-content: center;
+    padding-left: 2rem;
   }
 
   a.pill {

@@ -7,11 +7,7 @@
 
 body {
   height: calc(100vh - 40px);
-  // background-attachment: fixed;
   background-color: $dark-gray;
-  // background-image: linear-gradient(8deg, $red 0%, $black 20%);
-  // background-repeat: no-repeat;
-  // background-size: cover;
   color: $gray;
   font-family: "Nunito Sans", sans-serif;
   margin: 0;
@@ -207,7 +203,7 @@ footer {
   }
 
   h1 {
-    width: 30rem;
+    width: 410px;
   }
 
   nav ul li a {
@@ -223,26 +219,78 @@ footer {
     margin: 0 0 0 5rem;
   }
 
-  & > img {
+  img.logo {
     margin-bottom: 3rem;
     width: 200px;
   }
 }
 
-@media (max-width: 1300px) {
-  h1 {
-    font-size: 3rem;
+@media (max-width: 800px) {
+  footer {
+    h1.typewriter {
+      font-size: 36px;
+      width: 310px;
+    }
   }
 }
 
-@media (max-width: 1100px) {
-  h1 {
-    font-size: 2.5rem;
+@media (max-width: 700px) {
+  footer {
+    h1.typewriter {
+      font-size: 32px;
+      width: 280px;
+    }
+
+    .social-links {
+      margin-left: 2rem;
+    }
+  }
+
+  img {
+    max-width: 100%;
   }
 }
 
 @media (max-width: 600px) {
-  img {
-    max-width: 100%;
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  footer {
+    h1.typewriter {
+      font-size: 24px;
+      width: 210px;
+    }
+    .social-links {
+      margin-left: 2rem;
+    }
+
+    nav {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  footer {
+    .top-section {
+      flex-direction: column;
+    }
+
+    h1.typewriter {
+      font-size: 32px;
+      width: 280px;
+    }
+    .social-links {
+      margin: 0;
+    }
+
+    img.logo {
+      margin: 2rem 0;
+    }
   }
 }

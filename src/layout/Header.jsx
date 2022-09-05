@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
-import { Navigation } from "./Navigation";
+import { MobileMenu, Navigation } from ".";
 
 export const Header = () => {
   return (
@@ -9,6 +9,7 @@ export const Header = () => {
         <img src={logo} className="logo" alt="Ember Agency" />
       </Link>
       <Navigation />
+      <MobileMenu />
     </header>
   );
 };

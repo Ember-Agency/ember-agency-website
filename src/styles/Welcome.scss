@@ -12,7 +12,7 @@
 
     h1 {
       margin-top: 0;
-      max-width: 890px;
+      width: 890px;
     }
 
     p {
@@ -31,10 +31,12 @@
   }
 }
 
-// @media (max-width: 1000px) {
-//   #welcome {
-//   }
-// }
+@media (max-width: 900px) {
+  #welcome h1.typewriter {
+    font-size: 36px;
+    width: 670px;
+  }
+}
 
 // @media (max-width: 900px) {
 //   #welcome {

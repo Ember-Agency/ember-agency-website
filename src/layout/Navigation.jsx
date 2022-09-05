@@ -1,27 +1,43 @@
 import { Link } from "react-router-dom";
 
-export const Navigation = () => {
+export const Navigation = ({ onNavigate }) => {
+  const handleClick = () => {
+    if (onNavigate) {
+      onNavigate();
+    }
+  };
+
   return (
     <nav>
       <ul>
         <li>
-          <Link to="#elements">Construct</Link>
+          <Link to="#elements" onClick={handleClick}>
+            Construct
+          </Link>
         </li>
         <li>
-          <Link to="#capabilities">Capabilities</Link>
+          <Link to="#capabilities" onClick={handleClick}>
+            Capabilities
+          </Link>
         </li>
         <li>
-          <Link to="#ethos">Ethos</Link>
+          <Link to="#ethos" onClick={handleClick}>
+            Ethos
+          </Link>
         </li>
         <li>
-          <Link to="#partners">Partners</Link>
+          <Link to="#partners" onClick={handleClick}>
+            Partners
+          </Link>
         </li>
         <li>
-          <Link to="#contact">Contact</Link>
+          <Link to="#contact" onClick={handleClick}>
+            Contact
+          </Link>
         </li>
         <li>
           <a href="https://embertoken.io" rel="noreferrer" target="_blank">
-            The Ember Token
+            Token
           </a>
         </li>
       </ul>

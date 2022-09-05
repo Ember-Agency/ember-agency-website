@@ -7,6 +7,8 @@ h1.typewriter {
   color: $white;
   display: inline-block;
   font-family: "Chakra Petch", sans-serif;
+  // specific font sizing for typewriter effect
+  font-size: 48px;
   overflow: hidden;
   white-space: nowrap;
 }

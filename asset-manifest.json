@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.db85e327.css",
+    "main.css": "/static/css/main.b2195086.css",
     "main.js": "/static/js/main.7a755782.js",
     "static/js/787.efa9a5da.chunk.js": "/static/js/787.efa9a5da.chunk.js",
     "static/media/logo-beast.svg": "/static/media/logo-beast.0cff35336ee37aefc13095e43ec56ac1.svg",
@@ -23,12 +23,12 @@
     "static/media/icon-twitch.svg": "/static/media/icon-twitch.82e118d9f63006d15bc0dcbed8f7cdb5.svg",
     "static/media/icon-telegram.svg": "/static/media/icon-telegram.18f0dac19245416826f0b2709edd71d8.svg",
     "static/media/icon-twitter.svg": "/static/media/icon-twitter.4414a89fb2c960ef9234f30fccabf14c.svg",
-    "main.db85e327.css.map": "/static/css/main.db85e327.css.map",
+    "main.b2195086.css.map": "/static/css/main.b2195086.css.map",
     "main.7a755782.js.map": "/static/js/main.7a755782.js.map",
     "787.efa9a5da.chunk.js.map": "/static/js/787.efa9a5da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db85e327.css",
+    "static/css/main.b2195086.css",
     "static/js/main.7a755782.js"
   ]
 }

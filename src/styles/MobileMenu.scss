@@ -114,7 +114,7 @@
   }
 
   button {
-    background: $red;
+    background: none;
     border: 0;
     padding-top: 20px;
     position: fixed;
@@ -130,10 +130,10 @@
     .burger {
       position: relative;
       display: block;
-      width: 30px;
-      height: 3px;
+      width: 26px;
+      height: 2px;
       margin: 0 auto;
-      background: $white;
+      background: $gray;
       transition: all 0.275s;
 
       &:after,
@@ -141,27 +141,29 @@
         content: "";
         display: block;
         height: 100%;
-        background: $white;
+        background: $gray;
         transition: all 0.275s;
       }
 
       &:after {
-        transform: translateY(-10px);
+        transform: translateY(-8px) translateX(-4px);
+        width: 24px;
       }
 
       &:before {
-        transform: translateY(-14px);
+        transform: translateY(-12px) translateX(-2px);
+        width: 28px;
       }
     }
 
-    .burger-text {
-      display: block;
-      font-size: 0.675rem;
-      margin-top: 0.5rem;
-      text-transform: uppercase;
-      text-align: center;
-      color: $white;
-    }
+    // .burger-text {
+    //   display: block;
+    //   font-size: 0.675rem;
+    //   margin-top: 0.5rem;
+    //   text-transform: uppercase;
+    //   text-align: center;
+    //   color: $white;
+    // }
   }
 }
 
